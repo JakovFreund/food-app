@@ -1,0 +1,48 @@
+.menu-bar {
+  color: orange;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  column-gap: 20px;
+}
+
+.menu-bar__button {
+  display: flex;
+  border-radius: 6px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+  background-color: orange;
+  border: none;
+  padding: 1.5rem;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-bar__button img {
+  width: 20px;
+  height: 25px;
+}
+
+.menu-bar__button:hover{
+  background-color: rgb(255, 178, 36);
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+.menu-bar input:focus {
+  outline: none;
+}
+
+.menu-bar input {
+  font: inherit;
+  width: 1500px;
+  min-width: 200px;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid;
+  border-color: #ccc;
+  flex: 0 1 1;
+}
